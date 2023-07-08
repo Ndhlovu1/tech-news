@@ -1,7 +1,7 @@
 # A web application built to share innovate African Tech News
 
 ## Key Features To Implement:
-I'll create the specific models and setting up the admin site for the blog
+Create the specific models and setting up the admin site for the blog
 
 1. Share the stories to other users
 2. Allow Commenting on the stories
