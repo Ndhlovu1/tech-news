@@ -1,7 +1,7 @@
-# Tech-News A blog application built for Namibian Tech News
+# A web application built to share innovate African Tech News
 
 ## Key Features To Implement:
-I'll create the specific models and setting up the admin site for the blog
+Create the specific models and setting up the admin site for the blog
 
 1. Share the stories to other users
 2. Allow Commenting on the stories
@@ -10,7 +10,7 @@ I'll create the specific models and setting up the admin site for the blog
 5. Create a post feed
 6. Add a search feature
 
-## BASIC INFO
+## TECHNICAL INFORMATION
 ##### A Django Project is the main django installation with the Project Settings
 ##### A Django Application is often used to interact with the framework and provide specific functionalities.
 An Example is a Website with multiple Functionalities such as :
