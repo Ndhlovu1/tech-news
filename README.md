@@ -34,7 +34,7 @@ NB: Open the Default Shell For Our Django Applications
 
 ```shell
 python manage.py shell
-´´´
+```
 
 ```python
 >>> from django.contrib.auth.models import User
