@@ -1,0 +1,25 @@
+{% extends "blog/base.html" %}
+{% block title %} Tech News | Blog {% endblock %}
+
+{% block content %}
+    <h1>Tech News </h1>
+
+    {% for post in posts %}
+        <h2>            
+            <a href="{{ post.get_absolute_url }}" >
+                {{ post.title }}
+            </a>
+        </h2>
+
+        <p>
+            Published {{ post.publish }} by {{ post.author }}
+        </p>
+
+        {{ post.body|truncatewords:30|linebreaks }}
+
+    {% endfor %}
+    {% endblock %}
+
+
+
+
