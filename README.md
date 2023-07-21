@@ -1,6 +1,8 @@
 # A web application built to share Innovate, Inspiring News
 
 ## Project Screenshots
+**ADMIN INTERFACE**
+![Screenshot from 2023-07-22 00-03-21](https://github.com/Ndhlovu1/tech-news-blog/assets/46927702/9c8fa772-7a99-4a3b-9e68-a6cbcdc7cc2f)
 
 
 ## Key Features To Implement:
