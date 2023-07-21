@@ -34,15 +34,15 @@ NB: Open the Default Shell For Our Django Applications
 
 ```shell
 python manage.py shell
-```
+´´´
 
-´´´python
+```python
 >>> from django.contrib.auth.models import User
 >>> from blog_app.models import Post
->>>user = User.objects.get(username='phx')
+>>> user = User.objects.get(username='phx')
 >>> post = Post('title'='Post from the Terminal', slug='terminal-post', body='hello from term')
->>>post.save()
-´´´
+>>> post.save()
+```
 
 ## Presenting data to the Application
 
