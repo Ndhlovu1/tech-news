@@ -1,5 +1,8 @@
 # A web application built to share Innovate, Inspiring News
 
+## Project Screenshots
+
+
 ## Key Features To Implement:
 Create the specific models and setting up the admin site for the blog
 
