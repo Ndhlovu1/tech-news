@@ -25,4 +25,29 @@ It can also be used by other projects
 python manage.py sqlmigrate blog_app 0001
 ´´´
 
+## QUERYSETS AND MANAGERS
+### Querysets are essential for building any database driven applications
 
+#### Implementing the Object Relational Mapper
+
+NB: Open the Default Shell For Our Django Applications
+
+´´´shell
+python manage.py shell
+´´´
+
+´´´python
+>>> from django.contrib.auth.models import User
+>>> from blog_app.models import Post
+>>>user = User.objects.get(username='phx')
+>>> post = Post('title'='Post from the Terminal', slug='terminal-post', body='hello from term')
+>>>post.save()
+´´´
+
+## Presenting data to the Application
+
+1. Template Tags control the rendering of the template -> {% tag %}
+
+2. Template Variables get replaced with values when the template is rendered -> {{ variable }}
+
+3. Template filters allow you to modify variables for display -> {{ variable|filter }}
