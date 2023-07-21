@@ -9,7 +9,8 @@
 </head>
   
   <body>
-    <div class="container">
+    <div class="container py-4">
+      {% include "blog/_header.html" %} 
         <div class="row">
             <div class="col-12 col-lg-6">
                 {% block content %}    
@@ -19,9 +20,7 @@
         </div>
     </div>  
 
-    <div class="alert alert-info" role="alert">
-        SIDEBAR
-    </div>   
+    
 
   </body>
 </html>
