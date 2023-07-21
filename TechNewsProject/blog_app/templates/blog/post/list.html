@@ -2,20 +2,49 @@
 {% block title %} Tech News | Blog {% endblock %}
 
 {% block content %}
-    <h1>Tech News </h1>
+    
 
     {% for post in posts %}
-        <h2 class="display-8 fw-normal">
-            <a href="{{ post.get_absolute_url }}" >
-                {{ post.title }}
+
+    <div class="col">
+
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">
+                    <a href="{{ post.get_absolute_url }}" >
+                        {{ post.title }}
+                    </a>
+                </h4>
+            </div>
+
+            <div class="card-body">
+                <h5 class="card-title pricing-card-title">
+                    <small class="text-muted fw-light">
+                        Published {{ post.publish }} by {{ post.author }}
+                    </small>
+                </h5>
+                <!-- INFO -->
+              <ul class="list-unstyled mt-3 mb-4">
+                
+                <li>
+                    {{ post.body|truncatewords:30|linebreaks }}
+                </li>
+              </ul>
+              <a href="{{ post.get_absolute_url }}" >
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">  Read More</button>
             </a>
-        </h2>
+              
+            </div>
+        </div>
+          <!-- SEPERATOR -->
 
-        <p>
-            Published {{ post.publish }} by {{ post.author }}
-        </p>
+        
 
-        {{ post.body|truncatewords:30|linebreaks }}
+    </div>
+
+       
+
+        
 
     {% endfor %}
     {% endblock %}
