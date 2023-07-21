@@ -32,9 +32,9 @@ python manage.py sqlmigrate blog_app 0001
 
 NB: Open the Default Shell For Our Django Applications
 
-´´´shell
+```shell
 python manage.py shell
-´´´
+```
 
 ´´´python
 >>> from django.contrib.auth.models import User
