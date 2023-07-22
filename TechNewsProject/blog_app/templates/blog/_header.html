@@ -1,7 +1,11 @@
+{% load static %}
 <header>
     <div  class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-        <span class="fs-4">SURGO!</span>
+
+        <span class="fs-4">
+          <img src="{% static 'logos/logo.png' %}" alt="logo" width="150px" height="60px" >
+        </span>
       </a>
       <!-- SURGO is Latin for I RISE -->
       <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
