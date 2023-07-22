@@ -1,4 +1,10 @@
-# A web application built to share innovate African Tech News
+# A web application built to share Innovate, Inspiring News
+
+## Project Screenshots
+**ADMIN INTERFACE**
+![Screenshot from 2023-07-22 00-03-21](https://github.com/Ndhlovu1/tech-news-blog/assets/46927702/9c8fa772-7a99-4a3b-9e68-a6cbcdc7cc2f)
+**FRONT END**
+![Screenshot from 2023-07-22 00-02-50](https://github.com/Ndhlovu1/tech-news-blog/assets/46927702/f3cc82f4-e3b8-4a5c-b0c4-3ef541977529)
 
 ## Key Features To Implement:
 Create the specific models and setting up the admin site for the blog
