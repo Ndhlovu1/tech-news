@@ -8,6 +8,7 @@
 
 ## Key Features To Implement:
 Create the specific models and setting up the admin site for the blog
+//I changed something
 
 1. Share the stories to other users
 2. Allow Commenting on the stories
