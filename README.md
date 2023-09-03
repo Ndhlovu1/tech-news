@@ -2,6 +2,12 @@
 
 #### SOLVING THE `pipenv install` ERRORS
 
+Should you run into a missing distutils error altho it is installed simply run the command below
+
+```shell
+sudo apt-get install python3.8-distutils
+
+```
 
 ## Project Screenshots
 **ADMIN INTERFACE**
