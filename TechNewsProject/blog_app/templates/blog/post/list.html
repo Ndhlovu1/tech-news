@@ -1,0 +1,54 @@
+{% extends "blog/base.html" %}
+{% block title %} SURGO NEWS | HOME {% endblock %}
+
+{% block content %}
+    
+
+    {% for post in posts %}
+
+    <div class="col">
+
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">
+                    <a href="{{ post.get_absolute_url }}" >
+                        {{ post.title }}
+                    </a>
+                </h4>
+            </div>
+
+            <div class="card-body">
+                <h5 class="card-title pricing-card-title">
+                    <small class="text-muted fw-light">
+                        Published {{ post.publish }} by {{ post.author }}
+                    </small>
+                </h5>
+                <!-- INFO -->
+              <ul class="list-unstyled mt-3 mb-4">
+                
+                <li>
+                    {{ post.body|truncatewords:30|linebreaks }}
+                </li>
+              </ul>
+              <a href="{{ post.get_absolute_url }}" >
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">  Read More</button>
+            </a>
+
+            </div>
+        </div>
+    <!-- SEPERATOR -->
+
+        
+
+    </div>
+
+       
+
+        
+
+    {% endfor %}
+    {% endblock %}
+
+
+
+
