@@ -1,11 +1,18 @@
 {
     "_meta": {
         "hash": {
+<<<<<<< HEAD
             "sha256": "fac569e944b47dd6e97bb07e562225382243f61734d77d74957be66418b78632"
         },
         "pipfile-spec": 6,
         "requires": {
             "python_full_version": "3.8",
+=======
+            "sha256": "99c4b9ec1b8891ff787677276760beb6d6d4919c55660da1c713682156a6086c"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+>>>>>>> 67456b6f4ee93c998739381838507f1be0717ece
             "python_version": "3.8"
         },
         "sources": [
@@ -25,6 +32,7 @@
             "markers": "python_version >= '3.7'",
             "version": "==3.7.2"
         },
+<<<<<<< HEAD
         "backports.zoneinfo": {
             "hashes": [
                 "sha256:17746bd546106fa389c51dbea67c8b7c8f0d14b5526a579ca6ccf5ed72c526cf",
@@ -55,6 +63,15 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==4.2.4"
+=======
+        "django": {
+            "hashes": [
+                "sha256:2a6b6fbff5b59dd07bef10bcb019bee2ea97a30b2a656d51346596724324badf",
+                "sha256:672b3fa81e1f853bb58be1b51754108ab4ffa12a77c06db86aa8df9ed0c46fe5"
+            ],
+            "index": "pypi",
+            "version": "==4.2.2"
+>>>>>>> 67456b6f4ee93c998739381838507f1be0717ece
         },
         "sqlparse": {
             "hashes": [
@@ -66,11 +83,19 @@
         },
         "typing-extensions": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36",
                 "sha256:b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"
             ],
             "markers": "python_version < '3.11'",
             "version": "==4.7.1"
+=======
+                "sha256:88a4153d8505aabbb4e13aacb7c486c2b4a33ca3b3f807914a9b4c844c471c26",
+                "sha256:d91d5919357fe7f681a9f2b5b4cb2a5f1ef0a1e9f59c4d8ff0d3491e05c0ffd5"
+            ],
+            "markers": "python_version < '3.11'",
+            "version": "==4.6.3"
+>>>>>>> 67456b6f4ee93c998739381838507f1be0717ece
         }
     },
     "develop": {}
