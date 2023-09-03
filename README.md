@@ -7,6 +7,8 @@ Should you run into a missing distutils error altho it is installed simply run t
 ```shell
 sudo apt-get install python3.8-distutils
 
+#Otherwise install the various dependencies with pip as shown below
+pip install mysqlclient
 ```
 
 
